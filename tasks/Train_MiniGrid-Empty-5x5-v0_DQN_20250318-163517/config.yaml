@@ -1,0 +1,49 @@
+action_dim: !!python/object/apply:numpy.core.multiarray.scalar
+- !!python/object/apply:numpy.dtype
+  args:
+  - i8
+  - false
+  - true
+  state: !!python/tuple
+  - 3
+  - <
+  - null
+  - null
+  - null
+  - -1
+  - -1
+  - 0
+- !!binary |
+  BwAAAAAAAAA=
+algo_name: DQN
+batch_size: 64
+buffer_size: 10000
+device: cuda
+env_name: MiniGrid-Empty-5x5-v0
+env_render: rgb_array
+epsilon_decay: 10000
+epsilon_end: 0.01
+epsilon_start: 1.0
+eval_eps: 10
+eval_per_episode: 5
+gamma: 0.99
+load_checkpoint: false
+load_path: None
+log_dir: /home/wangchenxu/RL_Minigrid/tasks/Train_MiniGrid-Empty-5x5-v0_DQN_20250318-163517/logs
+lr: 0.001
+max_steps: 100
+mode: train
+model_dir: /home/wangchenxu/RL_Minigrid/tasks/Train_MiniGrid-Empty-5x5-v0_DQN_20250318-163517/models
+res_dir: /home/wangchenxu/RL_Minigrid/tasks/Train_MiniGrid-Empty-5x5-v0_DQN_20250318-163517/results
+save_fig: true
+seed: 1
+show_fig: false
+state_shape: !!python/tuple
+- 56
+- 56
+- 3
+target_update: 1000
+task_dir: /home/wangchenxu/RL_Minigrid/tasks/Train_MiniGrid-Empty-5x5-v0_DQN_20250318-163517
+test_eps: 10
+train_eps: 1000
+traj_dir: /home/wangchenxu/RL_Minigrid/tasks/Train_MiniGrid-Empty-5x5-v0_DQN_20250318-163517/traj

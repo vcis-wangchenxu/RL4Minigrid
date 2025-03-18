@@ -1,0 +1,170 @@
+2025-03-18 16:22:39 - r - INFO: - Hyperparameters:
+2025-03-18 16:22:39 - r - INFO: - ================================================================================
+2025-03-18 16:22:39 - r - INFO: -         Name        	       Value        	        Type        
+2025-03-18 16:22:39 - r - INFO: -      algo_name      	        DQN         	   <class 'str'>    
+2025-03-18 16:22:39 - r - INFO: -        device       	        cuda        	   <class 'str'>    
+2025-03-18 16:22:39 - r - INFO: -       env_name      	MiniGrid-Empty-5x5-v0	   <class 'str'>    
+2025-03-18 16:22:39 - r - INFO: -      env_render     	     rgb_array      	   <class 'str'>    
+2025-03-18 16:22:39 - r - INFO: -         mode        	       train        	   <class 'str'>    
+2025-03-18 16:22:39 - r - INFO: -   load_checkpoint   	         0          	   <class 'bool'>   
+2025-03-18 16:22:39 - r - INFO: -      load_path      	        None        	   <class 'str'>    
+2025-03-18 16:22:39 - r - INFO: -      max_steps      	        100         	   <class 'int'>    
+2025-03-18 16:22:39 - r - INFO: -         seed        	         1          	   <class 'int'>    
+2025-03-18 16:22:39 - r - INFO: -       save_fig      	         1          	   <class 'bool'>   
+2025-03-18 16:22:39 - r - INFO: -       show_fig      	         0          	   <class 'bool'>   
+2025-03-18 16:22:39 - r - INFO: -       test_eps      	         10         	   <class 'int'>    
+2025-03-18 16:22:39 - r - INFO: -      train_eps      	        1000        	   <class 'int'>    
+2025-03-18 16:22:39 - r - INFO: -   eval_per_episode  	         5          	   <class 'int'>    
+2025-03-18 16:22:39 - r - INFO: -       eval_eps      	         10         	   <class 'int'>    
+2025-03-18 16:22:39 - r - INFO: -      batch_size     	         64         	   <class 'int'>    
+2025-03-18 16:22:39 - r - INFO: -     buffer_size     	       10000        	   <class 'int'>    
+2025-03-18 16:22:39 - r - INFO: -    epsilon_start    	        1.0         	  <class 'float'>   
+2025-03-18 16:22:39 - r - INFO: -     epsilon_end     	        0.01        	  <class 'float'>   
+2025-03-18 16:22:39 - r - INFO: -    epsilon_decay    	       10000        	   <class 'int'>    
+2025-03-18 16:22:39 - r - INFO: -        gamma        	        0.99        	  <class 'float'>   
+2025-03-18 16:22:39 - r - INFO: -          lr         	       0.001        	  <class 'float'>   
+2025-03-18 16:22:39 - r - INFO: -    target_update    	         1          	   <class 'int'>    
+2025-03-18 16:22:39 - r - INFO: -       task_dir      	/home/wangchenxu/RL_Minigrid/tasks/Train_MiniGrid-Empty-5x5-v0_DQN_20250318-162239	   <class 'str'>    
+2025-03-18 16:22:39 - r - INFO: -      model_dir      	/home/wangchenxu/RL_Minigrid/tasks/Train_MiniGrid-Empty-5x5-v0_DQN_20250318-162239/models	   <class 'str'>    
+2025-03-18 16:22:39 - r - INFO: -       res_dir       	/home/wangchenxu/RL_Minigrid/tasks/Train_MiniGrid-Empty-5x5-v0_DQN_20250318-162239/results	   <class 'str'>    
+2025-03-18 16:22:39 - r - INFO: -       log_dir       	/home/wangchenxu/RL_Minigrid/tasks/Train_MiniGrid-Empty-5x5-v0_DQN_20250318-162239/logs	   <class 'str'>    
+2025-03-18 16:22:39 - r - INFO: -       traj_dir      	/home/wangchenxu/RL_Minigrid/tasks/Train_MiniGrid-Empty-5x5-v0_DQN_20250318-162239/traj	   <class 'str'>    
+2025-03-18 16:22:39 - r - INFO: - ================================================================================
+2025-03-18 16:22:39 - r - INFO: - state_shape: (7, 7, 3), action_dim: 7
+2025-03-18 16:22:40 - r - INFO: - Start training!
+2025-03-18 16:22:40 - r - INFO: - Env: MiniGrid-Empty-5x5-v0, Algorithm: DQN, Device: cuda
+2025-03-18 16:22:41 - r - INFO: - Episode: 1/1000, Reward: -10.000, Step: 100, Epsilong: 0.990
+2025-03-18 16:22:44 - r - INFO: - Episode: 2/1000, Reward: -10.000, Step: 100, Epsilong: 0.980
+2025-03-18 16:22:46 - r - INFO: - Episode: 3/1000, Reward: -4.241, Step: 49, Epsilong: 0.976
+2025-03-18 16:22:49 - r - INFO: - Episode: 4/1000, Reward: -10.000, Step: 100, Epsilong: 0.966
+2025-03-18 16:22:52 - r - INFO: - Episode: 5/1000, Reward: -9.582, Step: 98, Epsilong: 0.957
+2025-03-18 16:22:53 - r - INFO: - Current episode 5 has the best eval reward: 0.000
+2025-03-18 16:22:56 - r - INFO: - Episode: 6/1000, Reward: -10.000, Step: 100, Epsilong: 0.947
+2025-03-18 16:22:59 - r - INFO: - Episode: 7/1000, Reward: -10.000, Step: 100, Epsilong: 0.938
+2025-03-18 16:23:03 - r - INFO: - Episode: 8/1000, Reward: -10.000, Step: 100, Epsilong: 0.929
+2025-03-18 16:23:06 - r - INFO: - Episode: 9/1000, Reward: -10.000, Step: 100, Epsilong: 0.920
+2025-03-18 16:23:09 - r - INFO: - Episode: 10/1000, Reward: -10.000, Step: 100, Epsilong: 0.911
+2025-03-18 16:23:11 - r - INFO: - Episode: 11/1000, Reward: -10.000, Step: 100, Epsilong: 0.902
+2025-03-18 16:23:13 - r - INFO: - Episode: 12/1000, Reward: -10.000, Step: 100, Epsilong: 0.893
+2025-03-18 16:23:16 - r - INFO: - Episode: 13/1000, Reward: -7.620, Step: 80, Epsilong: 0.886
+2025-03-18 16:23:16 - r - INFO: - Episode: 14/1000, Reward: 0.228, Step: 8, Epsilong: 0.885
+2025-03-18 16:23:19 - r - INFO: - Episode: 15/1000, Reward: -10.000, Step: 100, Epsilong: 0.876
+2025-03-18 16:23:23 - r - INFO: - Episode: 16/1000, Reward: -10.000, Step: 100, Epsilong: 0.868
+2025-03-18 16:23:24 - r - INFO: - Episode: 17/1000, Reward: -3.042, Step: 38, Epsilong: 0.864
+2025-03-18 16:23:28 - r - INFO: - Episode: 18/1000, Reward: -9.691, Step: 99, Epsilong: 0.856
+2025-03-18 16:23:31 - r - INFO: - Episode: 19/1000, Reward: -10.000, Step: 100, Epsilong: 0.848
+2025-03-18 16:23:34 - r - INFO: - Episode: 20/1000, Reward: -10.000, Step: 100, Epsilong: 0.839
+2025-03-18 16:23:37 - r - INFO: - Episode: 21/1000, Reward: -7.075, Step: 75, Epsilong: 0.833
+2025-03-18 16:23:39 - r - INFO: - Episode: 22/1000, Reward: -4.895, Step: 55, Epsilong: 0.829
+2025-03-18 16:23:41 - r - INFO: - Episode: 23/1000, Reward: -6.203, Step: 67, Epsilong: 0.823
+2025-03-18 16:23:44 - r - INFO: - Episode: 24/1000, Reward: -10.000, Step: 100, Epsilong: 0.815
+2025-03-18 16:23:47 - r - INFO: - Episode: 25/1000, Reward: -10.000, Step: 100, Epsilong: 0.807
+2025-03-18 16:23:50 - r - INFO: - Episode: 26/1000, Reward: -5.222, Step: 58, Epsilong: 0.802
+2025-03-18 16:23:53 - r - INFO: - Episode: 27/1000, Reward: -10.000, Step: 100, Epsilong: 0.794
+2025-03-18 16:23:56 - r - INFO: - Episode: 28/1000, Reward: -10.000, Step: 100, Epsilong: 0.787
+2025-03-18 16:23:58 - r - INFO: - Episode: 29/1000, Reward: -5.440, Step: 60, Epsilong: 0.782
+2025-03-18 16:24:01 - r - INFO: - Episode: 30/1000, Reward: -10.000, Step: 100, Epsilong: 0.774
+2025-03-18 16:24:03 - r - INFO: - Episode: 31/1000, Reward: -1.516, Step: 24, Epsilong: 0.773
+2025-03-18 16:24:04 - r - INFO: - Episode: 32/1000, Reward: -4.023, Step: 47, Epsilong: 0.769
+2025-03-18 16:24:06 - r - INFO: - Episode: 33/1000, Reward: -6.966, Step: 74, Epsilong: 0.763
+2025-03-18 16:24:08 - r - INFO: - Episode: 34/1000, Reward: -5.549, Step: 61, Epsilong: 0.759
+2025-03-18 16:24:12 - r - INFO: - Episode: 35/1000, Reward: -10.000, Step: 100, Epsilong: 0.751
+2025-03-18 16:24:15 - r - INFO: - Episode: 36/1000, Reward: -10.000, Step: 100, Epsilong: 0.744
+2025-03-18 16:24:16 - r - INFO: - Episode: 37/1000, Reward: -0.971, Step: 19, Epsilong: 0.743
+2025-03-18 16:24:16 - r - INFO: - Episode: 38/1000, Reward: -0.535, Step: 15, Epsilong: 0.741
+2025-03-18 16:24:20 - r - INFO: - Episode: 39/1000, Reward: -10.000, Step: 100, Epsilong: 0.734
+2025-03-18 16:24:23 - r - INFO: - Episode: 40/1000, Reward: -10.000, Step: 100, Epsilong: 0.727
+2025-03-18 16:24:27 - r - INFO: - Episode: 41/1000, Reward: -10.000, Step: 100, Epsilong: 0.720
+2025-03-18 16:24:30 - r - INFO: - Episode: 42/1000, Reward: -10.000, Step: 100, Epsilong: 0.713
+2025-03-18 16:24:32 - r - INFO: - Episode: 43/1000, Reward: -5.440, Step: 60, Epsilong: 0.709
+2025-03-18 16:24:35 - r - INFO: - Episode: 44/1000, Reward: -10.000, Step: 100, Epsilong: 0.702
+2025-03-18 16:24:38 - r - INFO: - Episode: 45/1000, Reward: -10.000, Step: 100, Epsilong: 0.695
+2025-03-18 16:24:42 - r - INFO: - Episode: 46/1000, Reward: -10.000, Step: 100, Epsilong: 0.688
+2025-03-18 16:24:43 - r - INFO: - Episode: 47/1000, Reward: -2.933, Step: 37, Epsilong: 0.685
+2025-03-18 16:24:46 - r - INFO: - Episode: 48/1000, Reward: -10.000, Step: 100, Epsilong: 0.679
+2025-03-18 16:24:48 - r - INFO: - Episode: 49/1000, Reward: -4.132, Step: 48, Epsilong: 0.675
+2025-03-18 16:24:50 - r - INFO: - Episode: 50/1000, Reward: -4.786, Step: 54, Epsilong: 0.672
+2025-03-18 16:24:52 - r - INFO: - Episode: 51/1000, Reward: -5.876, Step: 64, Epsilong: 0.668
+2025-03-18 16:24:56 - r - INFO: - Episode: 52/1000, Reward: -10.000, Step: 100, Epsilong: 0.661
+2025-03-18 16:24:56 - r - INFO: - Episode: 53/1000, Reward: 0.446, Step: 6, Epsilong: 0.661
+2025-03-18 16:24:58 - r - INFO: - Episode: 54/1000, Reward: -7.184, Step: 76, Epsilong: 0.656
+2025-03-18 16:25:01 - r - INFO: - Episode: 55/1000, Reward: -10.000, Step: 100, Epsilong: 0.649
+2025-03-18 16:25:05 - r - INFO: - Episode: 56/1000, Reward: -10.000, Step: 100, Epsilong: 0.643
+2025-03-18 16:25:06 - r - INFO: - Episode: 57/1000, Reward: -1.952, Step: 28, Epsilong: 0.641
+2025-03-18 16:25:09 - r - INFO: - Episode: 58/1000, Reward: -10.000, Step: 100, Epsilong: 0.635
+2025-03-18 16:25:13 - r - INFO: - Episode: 59/1000, Reward: -10.000, Step: 100, Epsilong: 0.629
+2025-03-18 16:25:16 - r - INFO: - Episode: 60/1000, Reward: -10.000, Step: 100, Epsilong: 0.623
+2025-03-18 16:25:20 - r - INFO: - Episode: 61/1000, Reward: -10.000, Step: 100, Epsilong: 0.617
+2025-03-18 16:25:22 - r - INFO: - Episode: 62/1000, Reward: -5.876, Step: 64, Epsilong: 0.613
+2025-03-18 16:25:25 - r - INFO: - Episode: 63/1000, Reward: -10.000, Step: 100, Epsilong: 0.607
+2025-03-18 16:25:26 - r - INFO: - Episode: 64/1000, Reward: -2.279, Step: 31, Epsilong: 0.605
+2025-03-18 16:25:29 - r - INFO: - Episode: 65/1000, Reward: -10.000, Step: 100, Epsilong: 0.599
+2025-03-18 16:25:32 - r - INFO: - Episode: 66/1000, Reward: -6.312, Step: 68, Epsilong: 0.595
+2025-03-18 16:25:35 - r - INFO: - Episode: 67/1000, Reward: -10.000, Step: 100, Epsilong: 0.589
+2025-03-18 16:25:38 - r - INFO: - Episode: 68/1000, Reward: -10.000, Step: 100, Epsilong: 0.583
+2025-03-18 16:25:41 - r - INFO: - Episode: 69/1000, Reward: -10.000, Step: 100, Epsilong: 0.578
+2025-03-18 16:25:45 - r - INFO: - Episode: 70/1000, Reward: -10.000, Step: 100, Epsilong: 0.572
+2025-03-18 16:25:47 - r - INFO: - Episode: 71/1000, Reward: -4.350, Step: 50, Epsilong: 0.569
+2025-03-18 16:25:50 - r - INFO: - Episode: 72/1000, Reward: -10.000, Step: 100, Epsilong: 0.564
+2025-03-18 16:25:52 - r - INFO: - Episode: 73/1000, Reward: -7.075, Step: 75, Epsilong: 0.559
+2025-03-18 16:25:54 - r - INFO: - Episode: 74/1000, Reward: -5.331, Step: 59, Epsilong: 0.556
+2025-03-18 16:25:57 - r - INFO: - Episode: 75/1000, Reward: -7.293, Step: 77, Epsilong: 0.552
+2025-03-18 16:25:59 - r - INFO: - Episode: 76/1000, Reward: -4.241, Step: 49, Epsilong: 0.549
+2025-03-18 16:26:02 - r - INFO: - Episode: 77/1000, Reward: -10.000, Step: 100, Epsilong: 0.544
+2025-03-18 16:26:05 - r - INFO: - Episode: 78/1000, Reward: -10.000, Step: 100, Epsilong: 0.539
+2025-03-18 16:26:07 - r - INFO: - Episode: 79/1000, Reward: -4.132, Step: 48, Epsilong: 0.536
+2025-03-18 16:26:10 - r - INFO: - Episode: 80/1000, Reward: -10.000, Step: 100, Epsilong: 0.531
+2025-03-18 16:26:12 - r - INFO: - Episode: 81/1000, Reward: -4.895, Step: 55, Epsilong: 0.528
+2025-03-18 16:26:16 - r - INFO: - Episode: 82/1000, Reward: -10.000, Step: 100, Epsilong: 0.523
+2025-03-18 16:26:17 - r - INFO: - Episode: 83/1000, Reward: -5.440, Step: 60, Epsilong: 0.520
+2025-03-18 16:26:19 - r - INFO: - Episode: 84/1000, Reward: -5.113, Step: 57, Epsilong: 0.517
+2025-03-18 16:26:21 - r - INFO: - Episode: 85/1000, Reward: -3.151, Step: 39, Epsilong: 0.515
+2025-03-18 16:26:24 - r - INFO: - Episode: 86/1000, Reward: -10.000, Step: 100, Epsilong: 0.510
+2025-03-18 16:26:28 - r - INFO: - Episode: 87/1000, Reward: -10.000, Step: 100, Epsilong: 0.505
+2025-03-18 16:26:31 - r - INFO: - Episode: 88/1000, Reward: -10.000, Step: 100, Epsilong: 0.500
+2025-03-18 16:26:32 - r - INFO: - Episode: 89/1000, Reward: -4.023, Step: 47, Epsilong: 0.498
+2025-03-18 16:26:35 - r - INFO: - Episode: 90/1000, Reward: -10.000, Step: 100, Epsilong: 0.493
+2025-03-18 16:26:39 - r - INFO: - Episode: 91/1000, Reward: -10.000, Step: 100, Epsilong: 0.488
+2025-03-18 16:26:42 - r - INFO: - Episode: 92/1000, Reward: -7.620, Step: 80, Epsilong: 0.484
+2025-03-18 16:26:44 - r - INFO: - Episode: 93/1000, Reward: -8.056, Step: 84, Epsilong: 0.480
+2025-03-18 16:26:48 - r - INFO: - Episode: 94/1000, Reward: -10.000, Step: 100, Epsilong: 0.476
+2025-03-18 16:26:51 - r - INFO: - Episode: 95/1000, Reward: -10.000, Step: 100, Epsilong: 0.471
+2025-03-18 16:26:52 - r - INFO: - Episode: 96/1000, Reward: -1.516, Step: 24, Epsilong: 0.470
+2025-03-18 16:26:55 - r - INFO: - Episode: 97/1000, Reward: -10.000, Step: 100, Epsilong: 0.465
+2025-03-18 16:26:59 - r - INFO: - Episode: 98/1000, Reward: -10.000, Step: 100, Epsilong: 0.461
+2025-03-18 16:27:02 - r - INFO: - Episode: 99/1000, Reward: -10.000, Step: 100, Epsilong: 0.456
+2025-03-18 16:27:05 - r - INFO: - Episode: 100/1000, Reward: -10.000, Step: 100, Epsilong: 0.452
+2025-03-18 16:27:06 - r - INFO: - Episode: 101/1000, Reward: -0.426, Step: 14, Epsilong: 0.451
+2025-03-18 16:27:09 - r - INFO: - Episode: 102/1000, Reward: -7.729, Step: 81, Epsilong: 0.448
+2025-03-18 16:27:10 - r - INFO: - Episode: 103/1000, Reward: -4.241, Step: 49, Epsilong: 0.446
+2025-03-18 16:27:11 - r - INFO: - Episode: 104/1000, Reward: -0.862, Step: 18, Epsilong: 0.445
+2025-03-18 16:27:14 - r - INFO: - Episode: 105/1000, Reward: -10.000, Step: 100, Epsilong: 0.440
+2025-03-18 16:27:18 - r - INFO: - Episode: 106/1000, Reward: -10.000, Step: 100, Epsilong: 0.436
+2025-03-18 16:27:20 - r - INFO: - Episode: 107/1000, Reward: -5.222, Step: 58, Epsilong: 0.434
+2025-03-18 16:27:23 - r - INFO: - Episode: 108/1000, Reward: -10.000, Step: 100, Epsilong: 0.429
+2025-03-18 16:27:26 - r - INFO: - Episode: 109/1000, Reward: -10.000, Step: 100, Epsilong: 0.425
+2025-03-18 16:27:29 - r - INFO: - Episode: 110/1000, Reward: -10.000, Step: 100, Epsilong: 0.421
+2025-03-18 16:27:33 - r - INFO: - Episode: 111/1000, Reward: -10.000, Step: 100, Epsilong: 0.417
+2025-03-18 16:27:34 - r - INFO: - Episode: 112/1000, Reward: -3.369, Step: 41, Epsilong: 0.415
+2025-03-18 16:27:36 - r - INFO: - Episode: 113/1000, Reward: -4.023, Step: 47, Epsilong: 0.414
+2025-03-18 16:27:37 - r - INFO: - Episode: 114/1000, Reward: -1.952, Step: 28, Epsilong: 0.412
+2025-03-18 16:27:40 - r - INFO: - Episode: 115/1000, Reward: -10.000, Step: 100, Epsilong: 0.408
+2025-03-18 16:27:44 - r - INFO: - Episode: 116/1000, Reward: -10.000, Step: 100, Epsilong: 0.404
+2025-03-18 16:27:47 - r - INFO: - Episode: 117/1000, Reward: -10.000, Step: 100, Epsilong: 0.400
+2025-03-18 16:27:50 - r - INFO: - Episode: 118/1000, Reward: -10.000, Step: 100, Epsilong: 0.397
+2025-03-18 16:27:53 - r - INFO: - Episode: 119/1000, Reward: -10.000, Step: 100, Epsilong: 0.393
+2025-03-18 16:27:56 - r - INFO: - Episode: 120/1000, Reward: -8.383, Step: 87, Epsilong: 0.389
+2025-03-18 16:28:00 - r - INFO: - Episode: 121/1000, Reward: -10.000, Step: 100, Epsilong: 0.386
+2025-03-18 16:28:03 - r - INFO: - Episode: 122/1000, Reward: -10.000, Step: 100, Epsilong: 0.382
+2025-03-18 16:28:06 - r - INFO: - Episode: 123/1000, Reward: -10.000, Step: 100, Epsilong: 0.378
+2025-03-18 16:28:10 - r - INFO: - Episode: 124/1000, Reward: -10.000, Step: 100, Epsilong: 0.375
+2025-03-18 16:28:13 - r - INFO: - Episode: 125/1000, Reward: -10.000, Step: 100, Epsilong: 0.371
+2025-03-18 16:28:17 - r - INFO: - Episode: 126/1000, Reward: -10.000, Step: 100, Epsilong: 0.367
+2025-03-18 16:28:20 - r - INFO: - Episode: 127/1000, Reward: -10.000, Step: 100, Epsilong: 0.364
+2025-03-18 16:28:23 - r - INFO: - Episode: 128/1000, Reward: -10.000, Step: 100, Epsilong: 0.360
+2025-03-18 16:28:26 - r - INFO: - Episode: 129/1000, Reward: -10.000, Step: 100, Epsilong: 0.357
+2025-03-18 16:28:29 - r - INFO: - Episode: 130/1000, Reward: -10.000, Step: 100, Epsilong: 0.353
+2025-03-18 16:28:33 - r - INFO: - Episode: 131/1000, Reward: -10.000, Step: 100, Epsilong: 0.350
+2025-03-18 16:28:36 - r - INFO: - Episode: 132/1000, Reward: -10.000, Step: 100, Epsilong: 0.347
+2025-03-18 16:28:39 - r - INFO: - Episode: 133/1000, Reward: -10.000, Step: 100, Epsilong: 0.343
+2025-03-18 16:28:43 - r - INFO: - Episode: 134/1000, Reward: -10.000, Step: 100, Epsilong: 0.340
