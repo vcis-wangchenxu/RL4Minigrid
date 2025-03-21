@@ -1,0 +1,25 @@
+general_cfg:
+  algo_name: DoubleDQN
+  device: cuda
+  env_name: MiniGrid-Empty-5x5-v0
+  env_render: rgb_array
+  mode: train
+  load_checkpoint: false
+  load_path: None
+  max_steps: 100
+  seed: 1
+  save_fig: true
+  show_fig: false
+  test_eps: 10
+  train_eps: 1000
+  eval_per_episode: 5
+  eval_eps: 10
+algo_cfg:
+  batch_size: 64
+  buffer_size: 100000
+  epsilon_start: 1.0
+  epsilon_end: 0.01
+  epsilon_decay: 10000
+  gamma: 0.99
+  lr: 0.001
+  target_update: 1000
